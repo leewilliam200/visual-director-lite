@@ -1,0 +1,118 @@
+Visual Director — Licence
+=========================
+
+Plain-language licence, v1.0 — founder-reviewed and approved for the initial
+$0-validation launch (2026-09-14).
+
+> **NOT LEGAL ADVICE.** This document is written in plain language for clarity,
+> not as a bespoke legal instrument, and has not been reviewed by a lawyer. The
+> founder has reviewed and approved it for the initial validation launch; a
+> formal legal review is recommended before scaling. (NFR-006 — protection is via
+> this licence, not secrecy, so it needs to actually hold up.)
+>
+> **Licensor:** Meridian Labs Software. **Official source:**
+> https://github.com/leewilliam200/visual-director-lite
+
+---
+
+## What this covers
+
+Visual Director ships as two plain-text bundles:
+
+- **Lite** — the free bundle.
+- **Pro** — the paid bundle. Pro is a **one-time purchase of US$19** that
+  includes **ongoing access to updates**. It is **not a subscription** —
+  there is no recurring charge, and you are not billed again to keep using
+  what you bought. (See decision D-006.)
+
+Both bundles are plain-text files (skill instructions, reference notes, and
+renderer profiles). There is no code, no API, and no runtime connection —
+nothing phones home. You can read every file. Protection is by this licence,
+not by secrecy or DRM.
+
+Where this licence says **"the bundle"** it means these files themselves —
+the Visual Director Lite and/or Pro bundle you received. Where it says
+**"your output"** it means the image direction, prompts, and images you
+produce by using the bundle.
+
+---
+
+## What you MAY do
+
+1. **Use it personally.** Use Lite and (if you bought it) Pro for your own
+   projects, on your own machines, as much as you like.
+
+2. **Use it commercially.** Use the bundle in your paid work, for your
+   clients, and inside your business. You do **not** owe any extra fee or
+   royalty for commercial use.
+
+3. **Use and sell your output freely.** This licence places **no restriction**
+   on the image direction, prompts, and images you create with Visual Director.
+   Use and sell that output — personally or commercially — including in client
+   work, products, videos, listings, and print. This licence claims no ownership
+   over what you make with the tool. (Whether AI-generated images can themselves
+   be owned or copyrighted is an unsettled, jurisdiction-specific legal question
+   this licence does not decide.)
+
+4. **Read and adapt it for yourself.** Because the files are plain text, you
+   may read them and make private changes for your own use.
+
+---
+
+## What you MAY NOT do
+
+1. **No resale of the bundle.** You may not sell, sublicense, rent, or
+   otherwise charge anyone for the Visual Director bundle itself (Lite or Pro),
+   in whole or in part, whether unchanged or modified.
+
+2. **No redistribution of the bundle.** You may not republish, repackage,
+   mirror, or hand out the bundle's files — including the Pro files, the
+   renderer profiles, and any reference notes — to other people or the public.
+   Point people to the official source instead. (Sharing *your output* is fine;
+   sharing *the files* is not.)
+
+3. **No passing it off as your own.** You may not present the bundle, or a
+   renamed/reskinned copy of it, as your own product or skill.
+
+The short version: **what you make with Visual Director is yours to use and
+sell; the Visual Director bundle itself is not yours to resell or give away.**
+
+---
+
+## Refunds
+
+If Visual Director isn't what was described, or doesn't work for you, you can
+request a refund within **7 days** of purchase through Gumroad. Because the
+bundle is plain-text files delivered instantly, refunds outside that window are
+at Meridian Labs Software's discretion. This does not limit any refund rights you have under
+applicable consumer law.
+
+---
+
+## Third-party rendering tools
+
+Visual Director writes image *direction* — it does not render images and is
+**not affiliated with, endorsed by, or connected to** any image tool it names
+(including ChatGPT / GPT Image, Midjourney, Google Gemini, Ideogram, or FLUX).
+You render with those tools yourself, and you are responsible for complying with
+**their** terms of service and content policies.
+
+---
+
+## No warranty
+
+Visual Director is provided "as is", without warranty of any kind. Image
+models change, and results vary. To the extent allowed by law, Meridian Labs
+Software is not liable for any loss or damage arising from use of the bundle or its
+output.
+
+---
+
+## Questions
+
+For permission beyond what this licence allows (for example, redistributing the
+bundle), ask first at the official source:
+https://github.com/leewilliam200/visual-director-lite
+
+_Licensed by Meridian Labs Software. Founder-approved for the initial validation
+launch (2026-09-14); a formal legal review is recommended before scaling._
