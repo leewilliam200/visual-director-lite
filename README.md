@@ -7,6 +7,11 @@ Visual Director is a **Claude Skill**: a plain-text bundle you drop into Claude.
 hands you one ready-to-paste block that you take to an image generator (ChatGPT / GPT Image by
 default) to actually make the picture.
 
+**Use it with any capable AI.** It installs as a Claude Skill, but it's just plain text — paste
+the same bundle into a ChatGPT custom GPT, a Gemini Gem, or any assistant you can give instructions
+to. (It's authored and tested with Claude; the direction it writes targets ChatGPT / GPT Image by
+default.)
+
 > New here? Go straight to the [Quickstart](#quickstart) — you can produce your first direction
 > block in a couple of minutes. Fuller guides live in [`docs/onboarding/`](docs/onboarding/).
 
