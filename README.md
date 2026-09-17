@@ -48,6 +48,93 @@ generator of choice.
 
 ---
 
+## Examples
+
+*Same ask, side by side. Left is what a normal prompt gives you; right is Visual Director's block,
+pasted straight into ChatGPT / GPT Image — no editing, no retouching.*
+
+**Edit one thing, keep the rest.** *"Add falling snow"* — the houses, campervans, sky and road stay
+exactly as they were:
+
+![Add falling snow while the rest of the scene is preserved](assets/examples/snow-before-after.jpg)
+
+**Iterate without losing ground.** Each round changes only the one thing you name — the table, wall
+and light hold steady across all three frames:
+
+<table>
+  <tr>
+    <th>Original photo</th>
+    <th>“make the mug matte black”</th>
+    <th>“now add steam”</th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/iterate-1-original.jpg" width="250" alt="Original white ceramic mug on a wooden table"></td>
+    <td><img src="assets/examples/iterate-2-black.jpg" width="250" alt="Mug changed to matte black, everything else identical"></td>
+    <td><img src="assets/examples/iterate-3-steam.jpg" width="250" alt="Steam added to the black mug, everything else identical"></td>
+  </tr>
+</table>
+
+**A vague prompt vs. a directed one — a playlist cover.** The one-liner bakes in text you can't use;
+the directed block renders **no text** and keeps the frame title-safe:
+
+<table>
+  <tr>
+    <th>“chill playlist cover, night vibe”</th>
+    <th>Visual Director’s block</th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/demo4-before.jpg" width="380" alt="Raw one-line prompt: a cover with baked-in text you can't change"></td>
+    <td><img src="assets/examples/demo4-after.jpg" width="380" alt="Directed result: a clean night street, no text, space left for a title"></td>
+  </tr>
+</table>
+
+**Not everything is a cinematic photo — a flat illustration.** The one-liner fills the frame with
+garbled text; the block states the idiom, a limited palette, and clear space for a title:
+
+<table>
+  <tr>
+    <th>“cozy indie coffee shop, illustration”</th>
+    <th>Visual Director’s block</th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/demo5-before.jpg" width="380" alt="Raw prompt: an illustration cluttered with garbled, unusable text"></td>
+    <td><img src="assets/examples/demo5-after.jpg" width="380" alt="Directed flat editorial illustration: limited palette, no text, title-safe space"></td>
+  </tr>
+</table>
+
+**A YouTube thumbnail.** The one-liner is a cluttered, text-covered mess; the directed block is one
+bold subject with clean space for your own headline — and no baked-in text:
+
+<table>
+  <tr>
+    <th>“youtube thumbnail about saving money, eye catching”</th>
+    <th>Visual Director’s block</th>
+  </tr>
+  <tr>
+    <td><img src="assets/examples/thumb-before.jpg" width="380" alt="Raw prompt: a cluttered thumbnail covered in garbled text"></td>
+    <td><img src="assets/examples/thumb-after.jpg" width="380" alt="Directed: one bold subject, clean headline space, no text"></td>
+  </tr>
+</table>
+
+### It doesn't just generate — it reasons
+
+Free tools hand you an image and hide the thinking. Ask Visual Director *why* a render is off and it
+works the problem — what's wrong, why, what to change, and what to keep:
+
+![Visual Director diagnosing a cluttered thumbnail — what's wrong, why, what to change, what to keep](assets/examples/diagnosis.gif)
+
+And when you make a follow-up edit, it treats your tweak as a **delta** — changing the one line you
+named and carrying everything else forward, unchanged:
+
+![The edit-state ledger — one change, everything else held](assets/examples/ledger-diff.jpg)
+
+---
+
+> It writes the direction; the renderer renders. Every image above came out of ChatGPT / GPT Image
+> from Visual Director's block — the difference is the direction, not a better model.
+
+---
+
 ## Lite and Pro
 
 Visual Director ships as two bundles. **Lite is free; Pro is a one-time US$19 purchase that
