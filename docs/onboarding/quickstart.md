@@ -108,7 +108,7 @@ the subject stays exactly the one you authored across the whole set.
 ## Where to go next
 
 - Using a renderer other than ChatGPT? Read [renderer-guide.md](renderer-guide.md) first — the other
-  four are **Starter** profiles.
+  four are starting points that improve with use.
 - Something not behaving? [troubleshooting.md](troubleshooting.md).
 - Want the full editing/iteration method (precise edits, an edit-state ledger, deep diagnosis)? That's
   **Pro** — [meridianadmin8.gumroad.com/l/visual-director-pro](https://meridianadmin8.gumroad.com/l/visual-director-pro?utm_source=lite-readme).

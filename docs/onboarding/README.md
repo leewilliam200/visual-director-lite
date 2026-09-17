@@ -6,8 +6,8 @@ Start at the top and go down; each guide stands on its own.
 1. **[install.md](install.md)** — get the skill into Claude, per environment. No API keys, no build.
 2. **[quickstart.md](quickstart.md)** — produce your first ready-to-paste block, then edit and
    iterate. Runnable end-to-end with no prior context.
-3. **[renderer-guide.md](renderer-guide.md)** — the five supported renderers, what **Tested** vs
-   **Starter** means, and how the plain-text profiles work.
+3. **[renderer-guide.md](renderer-guide.md)** — the five supported renderers, why ChatGPT is the
+   tuned default, and how the plain-text profiles work.
 4. **[troubleshooting.md](troubleshooting.md)** — common snags and how to clear them.
 
 ## The one thing to understand first
@@ -31,4 +31,4 @@ generator you paste the block into. Keep that split in mind and the rest follows
 - **One block out.** The output is always a single delimited block. Notes and questions come before
   it; the block itself is only what you paste.
 - **ChatGPT is the default.** Name no renderer and the block targets ChatGPT / GPT Image, stated in
-  one line. The other four renderers are Pro-only **Starter** profiles.
+  one line. The other four renderers (Midjourney, Gemini, Ideogram, FLUX) are Pro-only profiles that improve with use.

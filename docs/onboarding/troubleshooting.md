@@ -51,9 +51,9 @@ bottom.
 ## Renderers
 
 **I named Midjourney / Gemini / Ideogram / FLUX and results are uneven.**
-- Those ship as **Starter** profiles (Pro only): documented head starts that **improve with use**,
-  not verified-tested behaviour. Only **ChatGPT / GPT Image** is **Tested**. For the most reliable
-  results, use the ChatGPT default. See [renderer-guide.md](renderer-guide.md).
+- Those profiles (Pro only) are documented head starts that **improve with use** — an honest first
+  draft, not verified behaviour. **ChatGPT / GPT Image** is the tuned default; for the most reliable
+  results, use it. See [renderer-guide.md](renderer-guide.md).
 
 **Can I use a renderer that isn't listed?**
 - Only the five in the renderer guide have profiles. You can still paste a block into another

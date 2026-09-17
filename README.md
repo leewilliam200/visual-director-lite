@@ -147,7 +147,7 @@ decay when a renderer updates, and the renderer profiles are kept current.
 | Complexity triage + universal specificity taxonomy | ✅ | ✅ |
 | Generate-from-scratch direction | ✅ | ✅ |
 | **Cover / series-art preset** | ✅ (the free hook) | ✅ |
-| ChatGPT / GPT Image profile (**Tested**) | ✅ | ✅ |
+| ChatGPT / GPT Image profile | ✅ | ✅ |
 | Basic critique (top 1–2 issues) | ✅ | ✅ |
 | Preservation **awareness** (flags mutable/immutable, warns of collateral change) | ✅ | ✅ |
 | Onboarding + consumer-safety behaviour | ✅ | ✅ |
@@ -156,7 +156,7 @@ decay when a renderer updates, and the renderer profiles are kept current.
 | **Precise single-element edits** without regenerating the rest | — | ✅ |
 | **Deep failure diagnosis** (what / why / change / keep) | — | ✅ |
 | Thumbnail + illustration presets | — | ✅ |
-| Midjourney, Gemini, Ideogram, FLUX profiles (**Starter**) | — | ✅ |
+| Midjourney, Gemini, Ideogram, FLUX profiles (*improve with use*) | — | ✅ |
 | User-authored character/series memory · artifact-repair guidance | — | ✅ |
 
 **The line:** Lite makes *one good image well* (and notices preservation). Pro is *edit precisely,
@@ -228,25 +228,22 @@ building a consistent series — is in [`docs/onboarding/quickstart.md`](docs/on
 
 You paste Visual Director's block into an image generator. Each supported generator has a **renderer
 profile** — a plain-text file inside the bundle that adjusts only *how the finished block is phrased*
-for that model. Profiles carry a mandatory confidence label:
+for that model.
 
-- **Tested** — quirks verified against the renderer of record. Fixes we rely on and confirm in use.
-- **Starter** — documented from public behaviour but not yet verified by us; a reasonable starting
-  point that **improves with use** as real quirks are confirmed. A Starter profile is **not** a
-  Tested one, and is never presented as such.
+**Tuned for ChatGPT / GPT Image** — the default and the renderer of record. If you name no renderer,
+the block targets ChatGPT / GPT Image and says so in one line.
 
-| Renderer | Confidence | Bundle |
-|---|---|---|
-| **ChatGPT / GPT Image** (renderer of record, v1 default) | **Tested** | Lite + Pro |
-| Midjourney | Starter (*improves with use*) | Pro only |
-| Google Gemini (image) | Starter (*improves with use*) | Pro only |
-| Ideogram | Starter (*improves with use*) | Pro only |
-| FLUX | Starter (*improves with use*) | Pro only |
+**Midjourney, Google Gemini, Ideogram and FLUX** (Pro) are included as **starting points that improve
+with use** — each documented from that model's public behaviour and refined as real quirks are
+confirmed. An honest head start, not a claim of verified behaviour.
 
-**If you name no renderer, the block targets ChatGPT / GPT Image** and says so in one line. These
-five are the only supported renderers; the profiles are plain text, with no API or runtime
-connection. Full details — what each label means and how the profiles work — are in
-[`docs/onboarding/renderer-guide.md`](docs/onboarding/renderer-guide.md).
+| Renderer | Bundle |
+|---|---|
+| **ChatGPT / GPT Image** (default) | Lite + Pro |
+| Midjourney · Google Gemini · Ideogram · FLUX | Pro |
+
+These five are the only supported renderers; the profiles are plain text, with no API or runtime
+connection. Full details are in [`docs/onboarding/renderer-guide.md`](docs/onboarding/renderer-guide.md).
 
 ---
 
@@ -259,7 +256,7 @@ connection. Full details — what each label means and how the profiles work —
 | Output came split across prose | Ask for "the block only". The contract is always one delimited, ready-to-paste block; notes go before it. |
 | My night scene renders as dusk / blue hour | Keep the "full dark, no ambient sky" wording in the block; that phrasing exists to stop the drift. |
 | I want product / e-commerce shots | Visual Director has no product-photography preset. That's a separate sibling product, **Product Shot Director**. |
-| I named Midjourney/Gemini/Ideogram/FLUX and results are uneven | Those ship as **Starter** profiles (Pro) — good starting points that improve with use. ChatGPT is the Tested default. |
+| I named Midjourney/Gemini/Ideogram/FLUX and results are uneven | Those profiles (Pro) are starting points that improve with use. ChatGPT / GPT Image is the tuned default. |
 
 More in [`docs/onboarding/troubleshooting.md`](docs/onboarding/troubleshooting.md).
 

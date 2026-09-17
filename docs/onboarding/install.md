@@ -53,7 +53,7 @@ you do not install renderer SDKs, set environment variables, or authenticate any
 - Install **one** bundle — you don't need both. Lite is the free hook (engine + cover preset +
   ChatGPT profile + basic critique + preservation awareness). Pro is the superset (full
   preservation, edit-state iteration, precise edits, deep diagnosis, thumbnail + illustration
-  presets, and the four **Starter** renderer profiles).
+  presets, and the four extra renderer profiles — Midjourney, Gemini, Ideogram and FLUX).
 - **Pro is a one-time purchase with ongoing update access — not a subscription.** Updates keep the
   renderer profiles current as models change; the core reasoning is built to not decay when they do.
 
