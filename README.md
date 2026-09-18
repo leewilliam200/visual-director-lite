@@ -2,6 +2,10 @@
 
 **Turn a rough idea into a precise, ready-to-paste image-generation prompt — and edit, iterate, and diagnose without breaking what already works.**
 
+[![Get Visual Director Pro for $19](https://img.shields.io/badge/Get_Pro-%2419-2ea44f?style=for-the-badge&logo=gumroad&logoColor=white)](https://meridianadmin8.gumroad.com/l/visual-director-pro?utm_source=lite-readme&utm_content=top-badge)
+
+Free and fully usable as-is. Pro adds more — [see Lite vs Pro ↓](#lite-and-pro).
+
 Visual Director is a **Claude Skill**: a plain-text bundle you drop into Claude. It writes
 *direction* — it does **not** render images itself. You describe what you want; Visual Director
 hands you one ready-to-paste block that you take to an image generator (ChatGPT / GPT Image by
